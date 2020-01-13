@@ -1,0 +1,142 @@
+/* Bootstrap collapse value */
+@media (min-width:1199px){
+    .collapse{
+        display: block !important;
+    }
+}
+/* Large Devices( Laptop & Desktop) */
+
+/* Medium Devices */
+@media (min-width: 992px) and (max-width: 1199px){
+   .navbar{
+       background: rgba(0, 0, 0, .7);
+       padding: 0;
+   }
+   #vesco-menu .navbar-nav{
+       float: left;
+   }
+   .vesco-nav-wrapper{
+       padding: 0;
+   }
+}
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px){
+    /* Navbar */
+    .navbar{
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    #vesco-menu .navbar-nav{
+        float: left;
+    }
+    .vesco-nav-wrapper{
+        padding: 0;
+    }
+    /* About Background */
+    #about-bg{
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box{
+       width: 100%;
+       height: 350px;
+    }
+    /* Pricing box */
+    .pricing-box{
+        padding: 50px;
+        margin: 40px 0;
+    }
+    #pricing .content-box{
+        padding-bottom: 20px;
+    }
+    /* Stats margin */
+    #stats h4{
+        margin-bottom: 40px;
+    }
+    #stats .content-title{
+        margin-bottom: 50px;
+    }
+    /* Footer */
+    #footer-copyrights{
+        text-align: center;
+    }
+}
+/* Extra-small devices */
+@media (max-width: 767px){
+    /* Navbar */
+    .navbar{
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    #vesco-menu .navbar-nav{
+        float: left;
+    }
+    .vesco-nav-wrapper{
+        padding: 0;
+    }
+    /* Home heading */
+    #home-heading h3{
+        font-size: 24px;
+    }
+    .btn-general{
+        padding: 6px 22px;
+        font-size: 14px;
+    }
+    /* About Background */
+    #about-bg{
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box{
+       width: 100%;
+       height: 350px;
+    }
+    /* Work Image */
+    .img-wrapper img{
+        min-width: 100%;
+    }
+    /* Testimonials Quotes */
+    .client-feedback blockquote{
+        padding: 0 30px;
+    }
+    .client-feedback blockquote::before{
+        left: 10px;
+    }
+    .client-feedback blockquote::after{
+        right: 10px;
+    }
+    .client-feedback blockquote p{
+        font-size: 14px;
+    }
+    /* Pricing box */
+    .pricing-box{
+        padding: 50px;
+        margin: 40px 0;
+    }
+    #pricing .content-box{
+        padding-bottom: 20px;
+    }
+    #footer-copyrights{
+        text-align: center;
+    }
+}
+/* Smaller Devices */
+@media (max-width: 480px){
+ 
+}
+/* Smallest Device */
+@media (max-width: 320px){
+    /* Service icon */
+    .service-item-icon i{
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
+    .service-item-title h3{
+        font-size: 17px;
+    }
+}
